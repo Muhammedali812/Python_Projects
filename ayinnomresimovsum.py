@@ -1,11 +1,11 @@
 nomre=int(input("1 den 12 ye qeder nomre daxil edin:\t"))
-if nomre <=3:
+if nomre <=2 or nomre==12:
     print("qish")
-elif nomre <=6:
+elif nomre <=5:
     print("yaz")
-elif nomre <=9:
+elif nomre <=8:
     print("yay")
-elif nomre <=12:
+elif nomre <=11:
     print("payiz")
 else:
     print("duzgun nomre daxil edin")
